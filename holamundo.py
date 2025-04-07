@@ -1,10 +1,4 @@
-class Saludo:
-
-    def __init__(self,mensaje):
-        self.mensaje= mensaje
-
-        def Mostrarmensaje():
-            print(self.mensaje)
+from hola import Saludo
 saludo =Saludo("Hola mundo")
 saludo.Mostrarmensaje()
 
